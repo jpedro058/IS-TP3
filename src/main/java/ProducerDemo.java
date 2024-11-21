@@ -25,7 +25,7 @@ public class ProducerDemo {
 
                 // Finaliza se o usuário digitar "sair"
                 if ("sair".equalsIgnoreCase(value)) {
-                    System.out.println("Encerrando o producer...");
+                    System.out.println("Encerrando o producer....");
                     break;
                 }
 
