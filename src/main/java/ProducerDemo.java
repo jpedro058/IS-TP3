@@ -40,6 +40,7 @@ public class ProducerDemo {
 
                 producer.send(record);
                 System.out.println("Enviado: " + (key.isEmpty() ? "Sem chave" : key) + " -> " + value);
+
             }
         } catch (Exception e) {
             e.printStackTrace();
